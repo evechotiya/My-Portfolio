@@ -66,7 +66,7 @@ nav {
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 nav ul li a{
@@ -703,7 +703,18 @@ nav ul li a.active::after{
 }*/
 
 
-
+@media only screen and (max-width:1700px){
+    .social-icon{
+        bottom:130px;
+        left: 297px;
+    }
+}
+@media only screen and (max-width:1650px){
+    .social-icon{
+        bottom: 130px;
+        left: 275px;
+    }
+}
 
 
 @media only screen and (max-width:1600px){
@@ -713,22 +724,32 @@ nav ul li a.active::after{
         bottom: 5%;
     }
     .social-icon{
-        bottom: 380px;
-        left: 250px;
+        bottom: 130px;
+        left: 279px;
     }
     .sk{
         
         margin-bottom: -7%;
     }
+    
     .skills{
         margin-left: 50%;
         margin-top: -53%;
      }
 }
+@media only screen and (max-width:1557px){
+    .social-icon{
+        bottom: 135px;
+        left: 231px;
+
+    
+
+    }
+}
 @media only screen and (max-width:1400px){
     .social-icon{
-        bottom: 390px;
-        left: 210px;
+        bottom: 140px;
+        left: 205px;
 
     
 
@@ -737,6 +758,7 @@ nav ul li a.active::after{
     margin-left: 50%;
     margin-top: -59%;
     }
+    
 }
 @media only screen and (max-width:1300px){
     .section__pic-container {
@@ -745,31 +767,50 @@ nav ul li a.active::after{
         bottom: 20%;
     }
     .social-icon{
-        bottom: 430px;
-        left: 190px;
+        bottom: 157px;
+        left: 200px;
     }
     .skills{
         margin-left: 50%;
-        margin-top: -65%;
-     }
+        margin-top: -59%;
+    }
+    
 
 }
+@media only screen and (max-width:1285px){
+    .social-icon{
+        bottom: 154px;
+        left: 169px;
+    }
+    .cer-list{
+        margin-left: -470px;
+     }
+}
 @media only screen and (max-width:1240px){
+    
     .sk{
         font-size: 20px;
         margin-bottom: -7%;
+        margin-top: 23%;
+        margin-left: -10%;
+    }
+    .lli{
+        margin-left: -10%;
     }
     .skills{
         margin-left: 55%;
-        margin-top: -75%;
+        margin-top: -70%;
+     }
+     .cer-list{
+        margin-left: -470px;
      }
 
 }
 
 @media only screen and (max-width:1200px){
     .social-icon{
-        bottom: 280px;
-        left: 170px;
+        bottom: 174px;
+        left: 171px;
     }
     .ab{
         font-size: 15px;
@@ -780,12 +821,14 @@ nav ul li a.active::after{
         margin-top: 5%;
     }
     .skills{
-        margin-left: 45%;
+        margin-left: 50%;
         margin-top: -67%;
         font-size: 15px;
      }
+     
      .sub-title{
         margin-top: -17%;
+        margin-left: -20%;
      }
      .cer-list{
         margin-left: -490px;
@@ -807,8 +850,8 @@ nav ul li a.active::after{
         bottom: 30%;
     }
     .social-icon{
-        bottom: 280px;
-        left: 150px;
+        bottom: 193px;
+        left: 149px;
     }
     .sub-title{
         margin-top: -20%;
@@ -822,34 +865,12 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1024px){
     .social-icon{
-        bottom: 300px;
-        left: 125px;
+        bottom: 213px;
+        left: 141px;
     }
 
 }
-@media only screen and (max-width:1020px){
-    .social-icon{
-        bottom: 300px;
-        left: 120px;
-    }
-    .skills{
-        margin-bottom: 50px;
-    }
-    .sub-title{
-        font-size: 50px;
-        margin-left: -2%;
-    }
-    .work-list{
-        grid-template-columns: 295px 295px 295px ;
-        margin-left: -485px;
-    }
-    .cer-list{
-        grid-template-columns: 290px 290px 290px  ;
-        margin-left: -490px;
-     }
 
-
-}
 @media only screen and (max-width:1110px){
     #about{
         margin-top: -15%;
@@ -863,35 +884,83 @@ nav ul li a.active::after{
         margin-left: -5%;
     }
     .skills{
-        margin-left: 48%;
-        margin-top: -73%;
+        margin-left: 55%;
+        margin-top: -72%;
         font-size: 15px;
      }
+     
     .sub-title{
         font-size: 50px;
-        margin-left: -0.5%;
+        margin-left: -20%;
     }
     .three{
         font-size: 50px;
     }
     .cer-list{
-        margin-left: -490px;
+        grid-template-columns: 290px 290px 290px  ;
+        margin-left: -470px;
      }
 
 }
+@media only screen and (max-width:1050px){
+    .skills{
+        margin-top: -78%;
+        margin-bottom: 50px;
+        margin-left: 55%;
+    }
+    .cer-list{
+        grid-template-columns: 290px 290px 290px  ;
+        margin-left: -470px;
+     }
+}
+
+@media only screen and (max-width:1020px){
+    .social-icon{
+        bottom: 219px;
+        left: 112px;
+    }
+    .skills{
+        margin-top: -78%;
+        margin-bottom: 50px;
+        margin-left: 55%;
+    }
+    
+    .sub-title{
+        font-size: 50px;
+        margin-left: -20%;
+    }
+    .work-list{
+        grid-template-columns: 295px 295px 295px ;
+        margin-left: -485px;
+    }
+    .cer-list{
+        grid-template-columns: 290px 290px 290px  ;
+        margin-left: -470px;
+     }
+
+
+}
 @media only screen and (max-width:1000px){
+    sub{
+        margin-left: 1%;
+    }
     .ab{
         font-size: 15px;
-        margin-left: -4%;
+        margin-left: 1%;
     }
     .sk{
         font-size: 20px;
         margin-bottom: -7%;
     }
+    
     .skills{
-        margin-left: 51%;
-        margin-top: -80%;
+        margin-left: 60%;
+        margin-top: -73%;
         font-size: 14px;
+     }
+     .cer-list{
+        grid-template-columns: 280px 280px 280px  ;
+        margin-left: -470px;
      }
 }
 @media only screen and (max-width:984px){
@@ -912,12 +981,18 @@ nav ul li a.active::after{
         bottom: 40%;
     }
     .social-icon{
-        bottom: 320px;
-        left: 100px;
+        bottom: 231px;
+        left: 90px;
+    }
+    .sub{
+        margin-left: 5%;
+    }
+    .ab{
+        margin-left: 5%;
     }
     .skills{
-        margin-left: 53%;
-        margin-top: -84%;
+        margin-left: 60%;
+        margin-top: -74%;
         font-size: 14px;
      }
      .sub-title{
@@ -925,18 +1000,27 @@ nav ul li a.active::after{
     }
      .work-list{
         grid-template-columns: 275px 275px 275px ;
-        margin-left: -455px;
+        margin-left: -380px;
     }
     .cer-list{
         grid-template-columns: 265px 265px 265px  ;
-        margin-left: -450px;
+        margin-left: -395px;
      }
 }
 @media only screen and (max-width:928px){
+    .skills{
+        margin-left: 59%;
+        margin-top: -83%;
+        font-size: 14px;
+     }
     .work-list{
         grid-template-columns: 265px 265px 265px ;
-        margin-left: -445px;
+        margin-left: -415px;
     }
+    .cer-list{
+        grid-template-columns: 265px 265px 265px  ;
+        margin-left: -445px;
+     }
 
 }
 @media only screen and (max-width:913px){
@@ -944,22 +1028,26 @@ nav ul li a.active::after{
         font-size: 13px;
         margin-left: -4%;
     }
-    .sk{
-        font-size: 23px;
-        margin-bottom: -20%;
-    }
+    
+    
     .skills{
-        margin-left: 51%;
-        margin-top: -83%;
+        margin-left: 53%;
+        margin-top: -79%;
         font-size: 13px;
      }
+     .sk{
+        
+        margin-top: -10%;
+        
+    }
+    
      .work-list{
         grid-template-columns: 295px 295px  ;
-        margin-left: -320px;
+        margin-left: -286px;
     }
      .cer-list{
         grid-template-columns: 255px 255px 255px  ;
-        margin-left: -430px;
+        
      }
 
 }
@@ -967,29 +1055,87 @@ nav ul li a.active::after{
     .sk{
        margin-bottom: 1%;
     }
+    
 }
 @media only screen and (max-width:874px){
+    .about1{
+        margin-left: -8%;
+    }
+    .sub{
+        margin-top: -40%;
+        margin-left: 48%;
+    }
+    .ab{
+        font-size: 12px;
+        margin-left: 48%;
+        
+    }
+    .sk{
+        font-size: 18px;
+        margin-top: 300px;
+        margin-left: 60%;
+    }
+    .skills{
+        margin-left: 50%;
+        margin-top: -90%;
+        font-size: 12px;
+     }
+     .lli{
+        margin-left: 60%;
+     }
+    .sub-title{
+        margin-left: 50%;
+    }
+    .work-list{
+        margin-left: 15%;
+    }
+    .three{
+        margin-left: 40%;
+     }
     .cer-list{
         grid-template-columns: 295px 295px  ;
-        margin-left: -330px;
+        margin-left: 80px;
      }
+     
+     
 
 }
 
 @media only screen and (max-width:806px){
+    .about1{
+        margin-left: -5%;
+    }
+    .sub{
+        margin-top: -35%;
+        margin-left: 48%;
+    }
     .ab{
         font-size: 12px;
-        margin-left: -4%;
+        margin-left: 48%;
+        
     }
     .sk{
-        font-size: 20px;
-        margin-bottom: 2%;
+        font-size: 18px;
+        margin-top: 300px;
+        margin-left: 60%;
     }
     .skills{
-        margin-left: 51%;
-        margin-top: -83%;
+        margin-left: 50%;
+        margin-top: -90%;
         font-size: 12px;
      }
+     .lli{
+        margin-left: 60%;
+     }
+     .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 300px 300px  ;
+        margin-left: 70px;
+    }
 }
 @media only screen and (max-width:768px){
     .section__pic-container {
@@ -1003,59 +1149,291 @@ nav ul li a.active::after{
         margin-left: -32%;
     }
     .social-icon{
-        bottom: 38%;
-        left: 140px;
+        bottom: 28%;
+        left: 130px;
+    }
+    .about1{
+        margin-left: -3%;
+    }
+    .sub{
+        margin-top: -35%;
+        margin-left: 48%;
     }
     .ab{
         font-size: 12px;
-        margin-left: -4%;
+        margin-left: 48%;
+        
     }
     .sk{
         font-size: 18px;
-        margin-bottom: 0px;
+        margin-top: 300px;
+        margin-left: 60%;
     }
     .skills{
-        margin-left: 55%;
+        margin-left: 50%;
         margin-top: -90%;
         font-size: 12px;
      }
+     .lli{
+        margin-left: 60%;
+     }
      #activites{
-        margin-top: -30%;
+        margin-top: 30%;
      }
      .sub-title{
-        margin-left: -70px;
+        margin-top: 2%;
+        margin-left: 40%;
+
      }
+     .work-list{
+        grid-template-columns: 300px 300px  ;
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width:760px){
+    .about1 img{
+        width: 130%;
+        margin-left: 80%;
+
+    }
+    .ab{
+        font-size: 13px;
+        
+        margin-left: 20%;
+        
+    }
+    .sub{
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 40%;
+        font-size: 35px;
+
+    }
+    .skills{
+        margin-left: 40%;
+        margin-top: -49%;
+        font-size: 10px;
+     }
+     .sk {
+        margin-top: -68%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    .lli{
+        
+        margin-left: 32%;
+        font-size: 12px;
+    }
+    .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 300px 300px  ;
+        margin-left: 50px;
+    }
+
+
+}
+@media only screen and (max-width:703px){
+    .about1 img{
+        width: 130%;
+        margin-left: 80%;
+
+    }
+    .ab{
+        font-size: 13px;
+        
+        margin-left: 20%;
+        
+    }
+    .sub{
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 40%;
+        font-size: 35px;
+
+    }
+    .skills{
+        margin-left: 50%;
+        margin-top: -58%;
+        font-size: 10px;
+     }
+     .sk {
+        margin-top: -68%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    .lli{
+        
+        margin-left: 32%;
+        font-size: 12px;
+    }
+    .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 250px 250px  ;
+        margin-left: 50px;
+    }
+
+    .cer-list{
+        grid-template-columns: 230px 230px;
+        right: -150px;
+    }
+}
+
+@media only screen and (max-width:678px){
+    .about1 img{
+        width: 120%;
+        margin-left: 80%;
+
+    }
+    .ab{
+        font-size: 13px;
+        
+        margin-left: 20%;
+        
+    }
+    .sub{
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 40%;
+        font-size: 35px;
+
+    }
+    .skills{
+        margin-left: 50%;
+        margin-top: -58%;
+        font-size: 10px;
+     }
+     .sk {
+        margin-top: -68%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    .lli{
+        
+        margin-left: 32%;
+        font-size: 12px;
+    }
+    .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 250px 250px  ;
+        margin-left: 50px;
+    }
+
 }
 @media only screen and (max-width:676px){
-    .ab{
-        font-size: 12px;
-        margin-left: -4%;
+    .about1 img{
+        width: 120%;
+        margin-left: 100%;
+
     }
-    .sk{
-        font-size: 12px;
-        margin-bottom: 0px;
+    .ab{
+        font-size: 13px;
+        
+        margin-left: 20%;
+        
+    }
+    .sub{
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 40%;
+        font-size: 35px;
+
     }
     .skills{
-        margin-left: 60%;
-        margin-top: -100%;
-        font-size: 12px;
+        margin-left: 50%;
+        margin-top: -58%;
+        font-size: 10px;
      }
+     .sk {
+        margin-top: -68%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    .lli{
+        
+        margin-left: 32%;
+        font-size: 12px;
+    }
+    .about1{
+        margin-left: -5%;
+    }
+    .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 250px 250px  ;
+        margin-left: 50px;
+    }
+    
+     
+
 }
 @media only screen and (max-width:636px){
-    .ab{
-        font-size: 10px;
-        margin-left: -4%;
+    
+    .about1 img{
+        width: 120%;
+        margin-left: 100%;
+
     }
-    .sk{
-        font-size: 12px;
-        margin-bottom: -1px;
+    .ab{
+        font-size: 13px;
+        
+        margin-left: 20%;
+        
+    }
+    .sub{
+        margin-top: 5%;
+        margin-bottom: -2%;
+        margin-left: 40%;
+        font-size: 35px;
+
     }
     .skills{
-        margin-left: 52%;
-        margin-top: -100%;
+        margin-left: 50%;
+        margin-top: -55%;
         font-size: 10px;
      }
+     .sk {
+        margin-top: -68%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    .lli{
+        
+        margin-left: 32%;
+        font-size: 12px;
+    }
+     .sub-title{
+        margin-top: 2%;
+        margin-left: 40%;
+
+     }
+     .work-list{
+        grid-template-columns: 250px 250px  ;
+        margin-left: 50px;
+    }
+    .three{
+        margin-left:30%;
+    }
+     .cer-list{
+        grid-template-columns: 200px 200px;
+        right: 200px;
+    }
 }
+
 @media only screen and (max-width:600px){
     nav{
         position: fixed;
@@ -1102,17 +1480,17 @@ nav ul li a.active::after{
     }
     .section__pic-container {
         height: 42%;
-        left: 0%;
+        left: 2%;
         bottom: 45%;
     }
 
     .detel{
-        margin-top:400px;
-        margin-left: 10%;
+        margin-top:351px;
+        margin-left: 5%;
     }
     .social-icon{
-        bottom: 100px;
-        left: 205px;
+        bottom: 31px;
+        left: 136px;
     }
     #about{
         margin-top: 5%;
@@ -1120,24 +1498,29 @@ nav ul li a.active::after{
 
     .about1 img{
         width: 170%;
-        margin-left: 50%;
+        margin-left: 70%;
      }
 
      .sub {
-        margin-top: 2%;
+        margin-top: 5%;
         margin-left: 30%;
      }
      .ab{
-        margin-left: 25%;
+        margin-left: 30%;
         font-size: 100%;
      }
      
      .sk{
+        margin-top: 2%;
         margin-bottom: -1%;
         font-size: 20px;
+        margin-left: 0%;
+     }
+     .lli{
+        margin-left: 0%;
      }
      .skills {
-        margin-left: 25%;
+        margin-left: 30%;
         margin-top: 2%;
         font-size: 100%;
 
@@ -1164,7 +1547,7 @@ nav ul li a.active::after{
         grid-template-columns: 230px 230px   ;
         
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 70px;
      }
      
 }
@@ -1177,7 +1560,7 @@ nav ul li a.active::after{
     .cer-list{
         grid-template-columns: 220px 220px    ;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 80px;
      }
 }
 @media (max-width: 550px){
@@ -1187,8 +1570,8 @@ nav ul li a.active::after{
     }
 
     .social-icon{
-        bottom: 110px;
-        left: 180px;
+        bottom: 33px;
+        left: 134px;
     }
 
     .about1 img{
@@ -1224,11 +1607,11 @@ nav ul li a.active::after{
         
     }
     .detel{
-        margin-top:380px;
+        margin-top:352px;
         margin-left: 10%;
     }
     .social-icon{
-        bottom: 120px;
+        bottom: 44px;
         left: 140px;
     }
     #about{
@@ -1248,8 +1631,8 @@ nav ul li a.active::after{
 
 @media (max-width: 479px){
     .social-icon{
-        bottom: 120px;
-        left: 140px;
+        bottom: 44px;
+        left: 127px;
     }
     .work-list{
          margin-top: 50px;
@@ -1262,7 +1645,7 @@ nav ul li a.active::after{
 }
 @media (max-width: 440px){
     .social-icon{
-        bottom: 120px;
+        bottom: 47px;
         left: 120px;
     }
     .section__pic-container {
@@ -1292,7 +1675,7 @@ nav ul li a.active::after{
 @media (max-width: 416px){
     .work-list{
         margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 45px;
      }
      .three{
         
@@ -1306,20 +1689,20 @@ nav ul li a.active::after{
 }
 @media (max-width: 414px){
     .social-icon{
-        bottom: 120px;
+        bottom: 50px;
         left: 100px;
     }
 }
 @media (max-width: 393px){
     .section__pic-container {
-        left:-20%;  
+        left:-10%;  
     }
     .detel{
-        margin-top:470px;
-        margin-left: 10%;
+        margin-top:346px;
+        margin-left: 5%;
     }
     .social-icon{
-        bottom: 190px;
+        bottom: 50px;
         left: 90px;
     }
     .work-list{
@@ -1339,11 +1722,11 @@ nav ul li a.active::after{
         
     }
     .detel{
-        margin-top:400px;
-        margin-left: 10%;
+        margin-top:359px;
+        margin-left: 5%;
     }
     .social-icon{
-        bottom: 110px;
+        bottom: 49px;
         left: 90px;
     }
     .sub {
@@ -1371,12 +1754,12 @@ nav ul li a.active::after{
         left:-10%
 }
 .detel{
-    margin-top:400px;
+    margin-top:346px;
     margin-left: 10%;
 }
 .social-icon{
-    bottom: 110px;
-    left: 70px;
+    bottom: 52px;
+    left: 90px;
 }
 .cer-list{
     grid-template-columns: 280px    ;
@@ -1388,15 +1771,15 @@ nav ul li a.active::after{
 @media (max-width: 360px){
     .section__pic-container {
         height: 40%;
-        left:-5%;
+        left:-10%;
         
 }
     .detel{
-        margin-top:380px;
+        margin-top:352px;
         margin-left: 10%;
     }
     .social-icon{
-        bottom: 110px;
+        bottom: 44px;
         left: 70px;
     }
     .sub-title{
@@ -1405,7 +1788,7 @@ nav ul li a.active::after{
     }
     .work-list{
         grid-template-columns: 300px  ;
-        margin-left: 25px;
+        margin-left: 35px;
       }
       .cer-list{
         
