@@ -702,16 +702,48 @@ nav ul li a.active::after{
      }
 }*/
 
-
+@media only screen and (max-width:2200px){
+    .social-icon{
+        bottom:18px;
+        left: 399px;
+    }
+}
+@media only screen and (max-width:2000px){
+    .social-icon{
+        bottom:40px;
+        left: 355px;
+    }
+}
+@media only screen and (max-width:1900px){
+    .social-icon{
+        bottom:50px;
+        left: 344px;
+    }
+}
+@media only screen and (max-width:1800px){
+    .detel{
+        margin-top: 15%;
+    }
+    .social-icon{
+        bottom:103px;
+        left: 297px;
+    }
+}
+@media only screen and (max-width:1750px){
+    .social-icon{
+        bottom:124px;
+        left: 297px;
+    }
+}
 @media only screen and (max-width:1700px){
     .social-icon{
-        bottom:130px;
+        bottom:131px;
         left: 297px;
     }
 }
 @media only screen and (max-width:1650px){
     .social-icon{
-        bottom: 130px;
+        bottom:151px;
         left: 275px;
     }
 }
@@ -724,7 +756,7 @@ nav ul li a.active::after{
         bottom: 5%;
     }
     .social-icon{
-        bottom: 130px;
+        bottom: 141px;
         left: 279px;
     }
     .sk{
@@ -739,8 +771,8 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1557px){
     .social-icon{
-        bottom: 135px;
-        left: 231px;
+        bottom: 140px;
+        left: 255px;
 
     
 
@@ -748,7 +780,7 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1400px){
     .social-icon{
-        bottom: 140px;
+        bottom: 185px;
         left: 205px;
 
     
@@ -762,12 +794,20 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1300px){
     .section__pic-container {
+        height: 120%;
+        left: 30%;
+        bottom: -9%;
+    }
+    .detel{
+        margin-top: 20%;
+    }
+    .section__pic-container {
         height: 60%;
         left: 30%;
         bottom: 20%;
     }
     .social-icon{
-        bottom: 157px;
+        bottom: 121px;
         left: 200px;
     }
     .skills{
@@ -779,8 +819,8 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1285px){
     .social-icon{
-        bottom: 154px;
-        left: 169px;
+        bottom: 137px;
+        left: 182px;
     }
     .cer-list{
         margin-left: -470px;
@@ -809,7 +849,7 @@ nav ul li a.active::after{
 
 @media only screen and (max-width:1200px){
     .social-icon{
-        bottom: 174px;
+        bottom: 152px;
         left: 171px;
     }
     .ab{
@@ -847,10 +887,10 @@ nav ul li a.active::after{
     .section__pic-container {
         height: 50%;
         left: 30%;
-        bottom: 30%;
+        bottom: 20%;
     }
     .social-icon{
-        bottom: 193px;
+        bottom: 162px;
         left: 149px;
     }
     .sub-title{
@@ -863,17 +903,11 @@ nav ul li a.active::after{
     }
 
 }
-@media only screen and (max-width:1024px){
-    .social-icon{
-        bottom: 213px;
-        left: 141px;
-    }
 
-}
 
 @media only screen and (max-width:1110px){
     #about{
-        margin-top: -15%;
+        margin-top: -10%;
     }
     .sub{
         margin-top: -3%;
@@ -904,7 +938,7 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:1050px){
     .skills{
-        margin-top: -78%;
+        margin-top: -74%;
         margin-bottom: 50px;
         margin-left: 55%;
     }
@@ -913,11 +947,18 @@ nav ul li a.active::after{
         margin-left: -470px;
      }
 }
+@media only screen and (max-width:1024px){
+    .social-icon{
+        bottom: 170px;
+        left: 141px;
+    }
+
+}
 
 @media only screen and (max-width:1020px){
     .social-icon{
-        bottom: 219px;
-        left: 112px;
+        bottom: 195px;
+        left: 111px;
     }
     .skills{
         margin-top: -78%;
@@ -955,7 +996,7 @@ nav ul li a.active::after{
     
     .skills{
         margin-left: 60%;
-        margin-top: -73%;
+        margin-top: -77%;
         font-size: 14px;
      }
      .cer-list{
@@ -976,19 +1017,19 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:950px){
     .section__pic-container {
-        height: 40%;
+        height: 60%;
         left: 30%;
-        bottom: 40%;
+        bottom: 20%;
     }
     .social-icon{
-        bottom: 231px;
-        left: 90px;
+        bottom: 197px;
+        left: 111px;
     }
     .sub{
-        margin-left: 5%;
+        margin-left: 4%;
     }
     .ab{
-        margin-left: 5%;
+        margin-left: 4%;
     }
     .skills{
         margin-left: 60%;
@@ -1008,6 +1049,19 @@ nav ul li a.active::after{
      }
 }
 @media only screen and (max-width:928px){
+    .detel{
+        margin-top: 20%;
+    }
+    .social-icon{
+        bottom: 210px;
+        left: 112px;
+    }
+    .sub{
+        margin-left: -5%;
+    }
+    .ab{
+        margin-left: -5%;
+    }
     .skills{
         margin-left: 59%;
         margin-top: -83%;
@@ -1024,6 +1078,10 @@ nav ul li a.active::after{
 
 }
 @media only screen and (max-width:913px){
+    .social-icon{
+        bottom: 204px;
+        left: 88px;
+    }
     .ab{
         font-size: 13px;
         margin-left: -4%;
@@ -1058,6 +1116,14 @@ nav ul li a.active::after{
     
 }
 @media only screen and (max-width:874px){
+    .section__pic-container{
+        height: 50%;
+        bottom: 30%;
+    }
+    .social-icon{
+        bottom: 220px;
+        left: 80px;
+    }
     .about1{
         margin-left: -8%;
     }
@@ -1145,12 +1211,12 @@ nav ul li a.active::after{
     }
     
     .detel{
-        margin-top:200px;
+        margin-top:154px;
         margin-left: -32%;
     }
     .social-icon{
-        bottom: 28%;
-        left: 130px;
+        bottom: 35%;
+        left: 112px;
     }
     .about1{
         margin-left: -3%;
@@ -1191,6 +1257,14 @@ nav ul li a.active::after{
     }
 }
 @media only screen and (max-width:760px){
+    .detel{
+        margin-top:235px;
+        margin-left: -32%;
+    }
+    .social-icon{
+        bottom: 20%;
+        left: 112px;
+    }
     .about1 img{
         width: 130%;
         margin-left: 80%;
@@ -1287,6 +1361,14 @@ nav ul li a.active::after{
 }
 
 @media only screen and (max-width:678px){
+    .detel{
+        margin-top:235px;
+        margin-left: -32%;
+    }
+    .social-icon{
+        bottom: 20%;
+        left: 112px;
+    }
     .about1 img{
         width: 120%;
         margin-left: 80%;
@@ -1332,6 +1414,14 @@ nav ul li a.active::after{
 
 }
 @media only screen and (max-width:676px){
+    .detel{
+        margin-top:235px;
+        margin-left: -32%;
+    }
+    .social-icon{
+        bottom: 20%;
+        left: 112px;
+    }
     .about1 img{
         width: 120%;
         margin-left: 100%;
@@ -1383,6 +1473,14 @@ nav ul li a.active::after{
 }
 @media only screen and (max-width:636px){
     
+    .detel{
+        margin-top:235px;
+        margin-left: -32%;
+    }
+    .social-icon{
+        bottom: 20%;
+        left: 112px;
+    }
     .about1 img{
         width: 120%;
         margin-left: 100%;
@@ -1485,12 +1583,12 @@ nav ul li a.active::after{
     }
 
     .detel{
-        margin-top:351px;
+        margin-top:388px;
         margin-left: 5%;
     }
     .social-icon{
-        bottom: 31px;
-        left: 136px;
+        bottom: 8px;
+        left: 174px;
     }
     #about{
         margin-top: 5%;
@@ -1570,7 +1668,7 @@ nav ul li a.active::after{
     }
 
     .social-icon{
-        bottom: 33px;
+        bottom: 14px;
         left: 134px;
     }
 
@@ -1607,11 +1705,11 @@ nav ul li a.active::after{
         
     }
     .detel{
-        margin-top:352px;
+        margin-top:380px;
         margin-left: 10%;
     }
     .social-icon{
-        bottom: 44px;
+        bottom: 14px;
         left: 140px;
     }
     #about{
@@ -1631,7 +1729,7 @@ nav ul li a.active::after{
 
 @media (max-width: 479px){
     .social-icon{
-        bottom: 44px;
+        bottom: 18px;
         left: 127px;
     }
     .work-list{
@@ -1645,7 +1743,7 @@ nav ul li a.active::after{
 }
 @media (max-width: 440px){
     .social-icon{
-        bottom: 47px;
+        bottom: 40px;
         left: 120px;
     }
     .section__pic-container {
@@ -1689,7 +1787,7 @@ nav ul li a.active::after{
 }
 @media (max-width: 414px){
     .social-icon{
-        bottom: 50px;
+        bottom: 19px;
         left: 100px;
     }
 }
@@ -1698,11 +1796,11 @@ nav ul li a.active::after{
         left:-10%;  
     }
     .detel{
-        margin-top:346px;
+        margin-top:392px;
         margin-left: 5%;
     }
     .social-icon{
-        bottom: 50px;
+        bottom: 9px;
         left: 90px;
     }
     .work-list{
@@ -1722,11 +1820,11 @@ nav ul li a.active::after{
         
     }
     .detel{
-        margin-top:359px;
+        margin-top:382px;
         margin-left: 5%;
     }
     .social-icon{
-        bottom: 49px;
+        bottom: 11px;
         left: 90px;
     }
     .sub {
@@ -1754,12 +1852,12 @@ nav ul li a.active::after{
         left:-10%
 }
 .detel{
-    margin-top:346px;
+    margin-top:385px;
     margin-left: 10%;
 }
 .social-icon{
-    bottom: 52px;
-    left: 90px;
+    bottom: 4px;
+    left: 78px;
 }
 .cer-list{
     grid-template-columns: 280px    ;
@@ -1775,12 +1873,12 @@ nav ul li a.active::after{
         
 }
     .detel{
-        margin-top:352px;
+        margin-top:368px;
         margin-left: 10%;
     }
     .social-icon{
-        bottom: 44px;
-        left: 70px;
+        bottom: 11px;
+        left: 76px;
     }
     .sub-title{
         margin-top: -40%;
@@ -1793,107 +1891,24 @@ nav ul li a.active::after{
       .cer-list{
         
         margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 15px;
      }
 }
-
-/*@media (max-width: 332px){
-    .section__pic-container {
-        height: 30%;
-        left:-15%;
-        bottom: 55%;
-        
-}
-.detel {
-    margin-top:410px;
-    margin-left: 10%;
-    
-}
-.detel h1{
-    font-size: 40px;
-}
-}
-.social-icon{
-    bottom: 280px;
-    left: 50px;
-}
-.about1 img{
-    width: 190%;
-    margin-left: 50%;
- }
- .sub-title{
-    margin-top: -40%;
-    margin-left: 10%;
-    font-size: 50px;
-}
-.work-list{
-    grid-template-columns: 300px  ;
-    margin-left: 4px;
-  }
-  .three{
-        
-    margin-left: 10%;
-    font-size:50px ;
-
- }
- .cer-list{
-    margin-top: 50px;
-    margin-left: 10px;
-    grid-template-columns: 280px;
-
-
- }
-
- @media (max-width: 318px){
-    .work-list{
-        grid-template-columns: 280px  ;
-        margin-left: 6px;
-      }
-      .three{
-            
-        margin-left: 10%;
-        font-size:50px ;
-    
-     }
-     .cer-list{
-        margin-top: 50px;
-        margin-left: 10px;
-        grid-template-columns: 270px;
-    
-    
-     }
- }
- @media (max-width: 301px){
-
-    .social-icon{
-        bottom: 270px;
-        left: 30px;
+@media (max-width: 320px){
+    .detel{
+        margin-top: 335px;
+        margin-left: 25px;
     }
     .work-list{
-        grid-template-columns: 260px  ;
-        margin-left: 4px;
+        grid-template-columns: 250px  ;
+        margin-left: 40px;
       }
-      .three{
-            
-        margin-left: 10%;
-        font-size:50px ;
-    
-     }
-     .cer-list{
-        margin-top: 50px;
-        margin-left: 10px;
-        grid-template-columns: 260px;
-    
-    
-     }
-}
-@media (max-width: 208px){
-    .social-icon{
-        bottom: 200px;
-        left: 20px;
+      .cer-list{
         
-    }
-    
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+
 }
 
      
