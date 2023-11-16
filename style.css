@@ -1228,6 +1228,7 @@ nav ul li a.active::after{
     }
     .fa-solid{
         color: #000;
+        margin-left: 40%;
     }
     
     nav .fa-solid {
@@ -1260,13 +1261,13 @@ nav ul li a.active::after{
         cursor: pointer;
     }
     .section__pic-container {
-        height: 42%;
-        left: 2%;
-        bottom: 45%;
+        height: 50%;
+        left: 5%;
+        bottom: 37%;
     }
 
     .detel{
-        margin-top:388px;
+        margin-top:296px;
         margin-left: 5%;
     }
     .social-icon{
@@ -1384,17 +1385,14 @@ nav ul li a.active::after{
 @media only screen and (max-width:480px){
     .section__pic-container {
         height: 40%;
-        left:2%;
+        left:0%;
         
     }
     .detel{
-        margin-top:380px;
-        margin-left: 10%;
+        margin-top:300px;
+        
     }
-    .social-icon{
-        bottom: 14px;
-        left: 140px;
-    }
+    
     #about{
         margin-top: 2%;
 
@@ -1411,10 +1409,7 @@ nav ul li a.active::after{
 
 
 @media (max-width: 479px){
-    .social-icon{
-        bottom: 18px;
-        left: 127px;
-    }
+    
     .work-list{
          margin-top: 50px;
          margin-left: 70px;
@@ -1425,13 +1420,10 @@ nav ul li a.active::after{
      }
 }
 @media (max-width: 440px){
-    .social-icon{
-        bottom: 11px;
-        left: 120px;
-    }
+    
     .section__pic-container {
-        
-        left: -10%;
+        height: 40%;
+
         bottom: 45%;
     }
     .sub-title{
@@ -1468,12 +1460,7 @@ nav ul li a.active::after{
         margin-left: 50px;
      }
 }
-@media (max-width: 414px){
-    .social-icon{
-        bottom: 19px;
-        left: 100px;
-    }
-}
+
 @media (max-width: 393px){
     .section__pic-container {
         left:-10%;  
@@ -1482,10 +1469,7 @@ nav ul li a.active::after{
         margin-top:392px;
         margin-left: 5%;
     }
-    .social-icon{
-        bottom: 9px;
-        left: 90px;
-    }
+    
     .work-list{
         grid-template-columns: 300px  ;
          margin-top: 50px;
@@ -1506,10 +1490,7 @@ nav ul li a.active::after{
         margin-top:382px;
         margin-left: 5%;
     }
-    .social-icon{
-        bottom: 11px;
-        left: 90px;
-    }
+    
     .sub {
         margin-left: 20%;
      }
@@ -1535,13 +1516,10 @@ nav ul li a.active::after{
         left:-10%
 }
 .detel{
-    margin-top:385px;
+    margin-top:290px;
     margin-left: 10%;
 }
-.social-icon{
-    bottom: 4px;
-    left: 78px;
-}
+
 .cer-list{
     grid-template-columns: 280px    ;
     
@@ -1559,10 +1537,7 @@ nav ul li a.active::after{
         margin-top:368px;
         margin-left: 10%;
     }
-    .social-icon{
-        bottom: 11px;
-        left: 76px;
-    }
+    
     .sub-title{
         margin-top: -40%;
         margin-left: 20%;
